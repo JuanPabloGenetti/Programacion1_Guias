@@ -325,6 +325,8 @@ int ejercicio10(Pila A){
         resultado += digit * pow(10, contador - 1); // Build the number by placing each digit in its appropriate position
         contador--;
     }
-    
     return resultado;
 }
+
+// FINAL FUNCIONES GUIA DE PILAS // INICIO FUNCIONES GUIA DE ARREGLOS
+
