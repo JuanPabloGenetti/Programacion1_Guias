@@ -3,6 +3,7 @@
 #include "pila.c"
 #include <math.h>
 
+//Prototipado guia pilas
 
 void llenarPila(Pila*, int*);
 void pasarPila(Pila A);
@@ -17,7 +18,7 @@ float division(int num1,int num2);
 float funcionPromedio(Pila A);
 int ejercicio10(Pila A);
 
-
+//Prototipado Guia Arreglos
 
 
 int main() {
@@ -42,7 +43,7 @@ int main() {
                     Pila miPila; 
                     inicpila(&miPila);
                     int size = 0;
-
+                    // TAB 
                     switch (subChoice) {
                         case 1:
                             printf("\nHacer una función que permita ingresar varios elementos a una pila, tanto como quiera el usuario. \n");
